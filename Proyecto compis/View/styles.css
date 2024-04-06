@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    max-width: 100%;
+    background-image: url(Fondo.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color:  transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+button{
+    margin: 5px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white; 
+    color: black; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    
+}
+#Boton{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+#Texto{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.main{
+    background-color:  transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 300px;
+    text-align: left;
+}
+.BarraDeTareas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#guardar{
+    display: flex;
+    margin-left: 60%;
+}
+#Consola{
+    width: 99%;
+    height: 70%;
+}
+.barra{
+    background-color:  transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 300px;
+    text-align: left;
+}
+#Errores{
+    width: 98%;
+    height: 70%;
+    
+}
+.terminal{
+    background-color:  transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 100px;
+}
+h2{
+    margin-top: 0%;
+    text-align: left;
+    font-size: small;
+}
+#Proceso{
+    width: 99%;
+    height: 65%;
+}
+
+.contenedor{
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.contenedor > * {
+    flex: 1 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media all and (min-width: 850px) {
+    .barra{
+        order: 1;
+    }
+    .terminal{
+        order: 2;
+    }
+    .footer{
+        order: 4;
+    }
+    .main{
+        flex: 3;
+        order: 2;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .barra {
+        flex: 1;
+    }
+}
+
