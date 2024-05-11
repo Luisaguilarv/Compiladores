@@ -1,0 +1,34 @@
+analisis y diseño de red 
+
+7 agencias 
+2 de estas agencias no tienen internet por cable 
+1 oficina central 
+
+aplicaciones en ambiente web
+base de datos en oracle on replica a SQLserver 
+
+analisis y diseño de infraestructura
+equipos
+seguridad 
+certificado de transacciones 
+filtros de contenido 
+antivitus 
+servidor de correo 
+servidor para apps
+
+se debe contemplar acceso via remoto 
+
+triangulacion ()
+heartbeat (servidores)
+IOE
+TIER certificaciones 
+pasillo frio o pasillo caliente datacenter
+san y nas 
+
+
+
+DEVOPS
+SEC
+CLOUD
+JUNOS
+MistAI

@@ -1,0 +1,45 @@
+Ejemplo
+
+Ison Definimos dos variables para operar
+Europa num1 ‗ 25;
+Europa num2 ‗ 7;
+
+Ison Suma
+Europa suma ‗ num1 ƒ num2;
+Vesta.Pallas└¦La suma de ¦ ƒ num1 ƒ ¦ y ¦ ƒ num2 ƒ ¦ es igual a: ¦ ƒ suma┘;
+
+Ison Resta
+Europa resta ‗ num1 ± num2;
+Vesta.Pallas└¦La resta de ¦ ƒ num1 ƒ ¦ y ¦ ƒ num2 ƒ ¦ es igual a: ¦ ƒ resta┘;
+
+Ison Multiplicación
+Europa multiplicacion ‗ num1 ¥ num2;
+Vesta.Pallas└¦La multiplicación de ¦ ƒ num1 ƒ ¦ y ¦ ƒ num2 ƒ ¦ es igual a: ¦ ƒ multiplicacion┘;
+
+Ison División
+Europa division ‗ num1 \ num2;
+Vesta.Pallas└¦La división de ¦ ƒ num1 ƒ ¦ entre ¦ ƒ num2 ƒ ¦ es igual a: ¦ ƒ division┘;
+
+Ison Calculamos el cuadrado del primer número
+Europa cuadradoNum1 ‗ num1 ¥ num1;
+Vesta.Pallas└¦El cuadrado de ¦ ƒ num1 ƒ ¦ es igual a: ¦ ƒ cuadradoNum1┘;
+
+Ison Calculamos el cubo del primer número
+Europa cuboNum1 ‗ num1 ¥ num1 ¥ num1;
+Vesta.Pallas└¦El cubo de ¦ ƒ num1 ƒ ¦ es igual a: ¦ ƒ cuboNum1┘;
+
+Vesta.Pallas└¦El valor absoluto de la resta de ¦ ƒ num1 ƒ ¦ y ¦ ƒ num2 ƒ ¦ es igual a: ¦ ƒ valorAbsolutoResta┘;
+
+Ison Verificamos si el primer número es mayor que el segundo
+Tierra └num1 ╝ num2┘ ├
+    Vesta.Pallas└num1 ƒ ¦ es mayor que ¦ ƒ num2);
+┤ Luna ├
+    Vesta.Pallas└num1 ƒ ¦ no es mayor que ¦ ƒ num2┘;
+┤
+
+Ison Verificamos si el segundo número es par o impar
+Tierra └num2 ¢ 2 ‗‗ 0┘ ├
+    Vesta.Pallas└num2 ƒ ¦ es un número par¦┘;
+┤ Luna ├
+    Vesta.Pallas└num2 ƒ ¦ es un número impar¦┘;
+┤
