@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    max-width: 100%;
+    background-image: url('Fondo.png'); /* Asegúrate de que la ruta sea correcta */
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#container {
+    text-align: center;
+    padding: 20px;
+}
+formulario{
+    border-radius: 5%;
+    padding: 3%;
+    margin: 3%;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+}
+
+#console {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.keyword {
+    color: blue;
+    font-weight: bold;
+}
+
+#Boton {
+    margin-top: 20px;
+}
+
+#Boton button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.tabla-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tabla {
+    flex: 1;
+    min-width: 300px;
+}
+
+.tabla1, .tabla2, .tabla3{
+    max-height: 300px; /* Altura máxima de la tabla antes de activar el scroll */
+    overflow-y: auto; /* Desplazamiento vertical */
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+table {
+    background-color: white;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    position: sticky;
+    top: 0;
+    z-index: 1; /* Asegura que la cabecera esté por encima del resto del contenido */
+}
+
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.result-table th, .result-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.result-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.tabla-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
+
+.tabla {
+    padding: 10px; /* Añade un espacio interno para que el texto no se pegue al borde de la tabla */
+    margin-bottom: 20px; /* Añade espacio entre las tablas */
+    background-color: white;
+    border-radius: 10%;
+}
+
+.tabla:last-child {
+    margin-right: 0; /* Eliminar margen derecho de la última tabla */
+}
+
+.tabla1 {
+    background-color: white;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.tabla2 {
+    background-color: white;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.tabla3 {
+    background-color: white;
+    text-align: center;
+    border-radius: 5%;
+}
+.main {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left;
+}
+
+button {
+    margin: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    color: black;
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+h1{
+    color: blue
+}
+
+h2 {
+    padding: 5px; /* Puedes ajustar este valor según sea necesario */
+    text-align: center;
+    color: black;
+}
+
+.contenedor {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.contenedor > * {
+    flex: 1 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media all and (min-width: 850px) {
+    .main {
+        flex: 3;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .main {
+        flex: 1;
+    }
+}
